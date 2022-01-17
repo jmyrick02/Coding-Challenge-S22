@@ -7,7 +7,7 @@
 ## Overview and Method
 My classification has an accuracy of 100% on a test data set comprised of 20% of the original data set, with the other 80% devoted to training. I generated an explainable answer set programming (ASP) rule set using the FOLD-R++ algorithm. The benefit of this method is that it creates a human-comprehensible rule set to determine if a mushroom is poisonous or not, avoiding the black-box model of traditional machine learning classification.
 
-One can see my code in the `coding-challenge.ipynb` file, which is a Jupyter Notebook. The code consists of setting up the model and importing and processing the data and the use of the model. The generated answer set programming rule set achieved 100% accuracy on the test data using only 4 default rules and 3 exception rules. Finally, in the last output, one can see the explanation for the classification of each mushroom in the test data set.
+One can see my code and output in the `coding-challenge.ipynb` file, which is a Jupyter Notebook. The code consists of setting up the model and importing and processing the data and the use of the model. The generated answer set programming rule set achieved 100% accuracy on the test data using only 4 default rules and 3 exception rules. Finally, in the last output, one can see the explanation for the classification of each mushroom in the test data set.
 
 A concrete example:
 ```
