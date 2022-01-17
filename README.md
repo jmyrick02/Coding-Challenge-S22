@@ -16,3 +16,6 @@ answer 1:
 [T]class(X,'p') :- not [F]gill-size(X,'b'), [T]stalk-surface-below-ring(X,'y').
 ```
 This states that test mushroom number 37 is poisonous because its gill size is not broad and its stalk surface below its ring is scaly. The model learned these rules only from the training data and the FOLD-R++ algorithm.
+
+## Reflection
+The FOLD-R++ algorithm is very powerful since it gives explanations to its predictions in addition to being very accurate, especially on this data set. The rules are simple, logical, and understandable and still bring amazing predictive power. I would like to thank Dr. Gopal Gupta for showing this technology off at a workshop for HackReason 2022 and highlighting the importance and practicality of explainable AI. Explainable AI is important for transparency and the ability to correct biases and incorrect or ungeneralizable assumptions.
